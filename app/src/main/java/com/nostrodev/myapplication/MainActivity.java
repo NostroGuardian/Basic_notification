@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
                         .setSmallIcon(R.mipmap.ic_launcher)
                         .setContentTitle("MyApp notification")
                         .setContentText("This is test notification.")
-                        .setChannelId(NOTIFY_CHANNEL)
                         .setPriority(NotificationCompat.PRIORITY_DEFAULT);
 
                 NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(MainActivity.this);
