@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Notification test</string>
+    <string name="press_button_for_send_notification">Press button for send notification</string>
 </resources>
